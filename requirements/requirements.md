@@ -30,13 +30,13 @@ _This file is generated, do not modify it manually. Use the vimotest-requirement
 
 | ID | Requirement | User Story | Reason | Importance | Notes |
 |----|-------------|------------|--------|------------|-------|
-| **UICOMP-001** | Support Buttons |  |  | ![MUST HAVE](https://github.com/vimotest/vimotest.github.io/raw/main/images//req_importance_musthave.png) | Properties: Visibility, Enabled, Text |
-| **UICOMP-002** | Support Check-boxes |  |  | ![MUST HAVE](https://github.com/vimotest/vimotest.github.io/raw/main/images//req_importance_musthave.png) | Properties: Visibility, Enabled, Text, Checked-State (tri-state?) |
-| **UICOMP-003** | Support Radio Buttons |  |  | ![MUST HAVE](https://github.com/vimotest/vimotest.github.io/raw/main/images//req_importance_musthave.png) | Properties: Visibility, Enabled, Text, Selected |
-| **UICOMP-004** | Support Labels |  |  | ![MUST HAVE](https://github.com/vimotest/vimotest.github.io/raw/main/images//req_importance_musthave.png) | Properties: Visibility, Enabled, Text |
-| **UICOMP-005** | Support Image Views |  |  | ![MUST HAVE](https://github.com/vimotest/vimotest.github.io/raw/main/images//req_importance_musthave.png) | Properties: Visibility, Image |
-| **UICOMP-010** | Support List Views |  |  | ![MUST HAVE](https://github.com/vimotest/vimotest.github.io/raw/main/images//req_importance_musthave.png) | Properties: Visibility, Enabled, List Items |
-| **UICOMP-011** | Support Table Views |  |  | ![MUST HAVE](https://github.com/vimotest/vimotest.github.io/raw/main/images//req_importance_musthave.png) | Properties: Visibility, Enabled, Table Items |
+| **UICOMP-001** | Support Buttons | As a view developer, I need to support buttons | Buttons are needed in mostly any UI | ![MUST HAVE](https://github.com/vimotest/vimotest.github.io/raw/main/images//req_importance_musthave.png) | Properties: Visibility, Enabled, Text |
+| **UICOMP-002** | Support Check-boxes | As a view developer, I need to support check-boxes |  | ![MUST HAVE](https://github.com/vimotest/vimotest.github.io/raw/main/images//req_importance_musthave.png) | Properties: Visibility, Enabled, Text, Checked-State (tri-state?) |
+| **UICOMP-003** | Support Radio Buttons | As a view developer, I need to support radio buttons |  | ![MUST HAVE](https://github.com/vimotest/vimotest.github.io/raw/main/images//req_importance_musthave.png) | Properties: Visibility, Enabled, Text, Selected |
+| **UICOMP-004** | Support Labels | As a view developer, I need to support labels |  | ![MUST HAVE](https://github.com/vimotest/vimotest.github.io/raw/main/images//req_importance_musthave.png) | Properties: Visibility, Enabled, Text |
+| **UICOMP-005** | Support Image Views | As a view developer, I need to support icons/images |  | ![MUST HAVE](https://github.com/vimotest/vimotest.github.io/raw/main/images//req_importance_musthave.png) | Properties: Visibility, Image |
+| **UICOMP-010** | Support List Views | As a view developer, I need to support list views |  | ![MUST HAVE](https://github.com/vimotest/vimotest.github.io/raw/main/images//req_importance_musthave.png) | Properties: Visibility, Enabled, List Items |
+| **UICOMP-011** | Support Table Views | As a view developer, I need to support table views |  | ![MUST HAVE](https://github.com/vimotest/vimotest.github.io/raw/main/images//req_importance_musthave.png) | Properties: Visibility, Enabled, Table Items |
 ### 3 Context Features
 
 | ID | Requirement | User Story | Reason | Importance | Notes |
