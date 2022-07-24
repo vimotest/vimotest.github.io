@@ -26,6 +26,7 @@ _This file is generated, do not modify it manually. Use the vimotest-requirement
 | **GHERKIN-003** | Support data lists | As a test developer, I want to provide list data inputs to describe multiple cases at once |  | ![SHOULD HAVE](https://github.com/vimotest/vimotest.github.io/raw/main/images//req_importance_shouldhave.png) |  |
 | **GHERKIN-004** | Support data tables | As a test developer, I want to provide tabular data inputs to describe multiple cases at once |  | ![NICE TO HAVE](https://github.com/vimotest/vimotest.github.io/raw/main/images//req_importance_nicetohave.png) |  |
 | **GHERKIN-005** | Support scenario-outlines | As a test developer, I want to provide scenario outlines which gives common context for multiple scenarios | With scenario outlines, test suites might become much simpler when common context is required | ![SHOULD HAVE](https://github.com/vimotest/vimotest.github.io/raw/main/images//req_importance_shouldhave.png) |  |
+
 ### 2 UI Components
 
 | ID | Requirement | User Story | Reason | Importance | Notes |
@@ -37,22 +38,26 @@ _This file is generated, do not modify it manually. Use the vimotest-requirement
 | **UICOMP-005** | Support Image Views | As a view developer, I need to support icons/images |  | ![MUST HAVE](https://github.com/vimotest/vimotest.github.io/raw/main/images//req_importance_musthave.png) | Properties: Visibility, Image |
 | **UICOMP-010** | Support List Views | As a view developer, I need to support list views |  | ![MUST HAVE](https://github.com/vimotest/vimotest.github.io/raw/main/images//req_importance_musthave.png) | Properties: Visibility, Enabled, List Items |
 | **UICOMP-011** | Support Table Views | As a view developer, I need to support table views |  | ![MUST HAVE](https://github.com/vimotest/vimotest.github.io/raw/main/images//req_importance_musthave.png) | Properties: Visibility, Enabled, Table Items |
+
 ### 3 Context Features
 
 | ID | Requirement | User Story | Reason | Importance | Notes |
 |----|-------------|------------|--------|------------|-------|
 | **CONTEXT-001** | Allow reuse of context (or context parts) |  |  | ![MUST HAVE](https://github.com/vimotest/vimotest.github.io/raw/main/images//req_importance_musthave.png) | E.g. by using the MPS' editor component |
 | **CONTEXT-004** | Provide extensible Context Data mechanism (e.g. Hamster Simulator has its own file-based context structure) |  |  | ![MUST HAVE](https://github.com/vimotest/vimotest.github.io/raw/main/images//req_importance_musthave.png) | E.g. by using MPS' weaving generator rules |
+
 ### 4 Assertion Features
 
 | ID | Requirement | User Story | Reason | Importance | Notes |
 |----|-------------|------------|--------|------------|-------|
 | **ASSERT-001** | Support partial assertions (e.g. 1 Column of a given expected table) | As a test developer, I want to couple my tests only on single aspects | We want that tests fail only for one aspect if possible, (e.g., only for one specific column). But, to allow a good readability of a testcase, sometimes it helps to display more information (e.g. a full table). | ![MUST HAVE](https://github.com/vimotest/vimotest.github.io/raw/main/images//req_importance_musthave.png) | This is possible since we use a projectional editor |
+
 ### 5 Technical DSL Features
 
 | ID | Requirement | User Story | Reason | Importance | Notes |
 |----|-------------|------------|--------|------------|-------|
 | **DSL-001** | ViewModel shall have a built-in "Updating Flag" | As a view-logic developer I want to be able to temporarily disable data-binding updates | For larger or complex UI updates, sometimes data-binding has to be disabled temporarily | ![MUST HAVE](https://github.com/vimotest/vimotest.github.io/raw/main/images//req_importance_musthave.png) | i.e. to avoid that UIs fire events while larger updates of the ViewModel |
+
 ### 6 Programming Languages
 
 | ID | Requirement | User Story | Reason | Importance | Notes |
@@ -61,8 +66,10 @@ _This file is generated, do not modify it manually. Use the vimotest-requirement
 | **PL-002** | Support C++ | As a C++ Developer, I want to generate C++-based ViewModels | Support C++ based UI Frameworks or native C++ core code | ![MUST HAVE](https://github.com/vimotest/vimotest.github.io/raw/main/images//req_importance_musthave.png) |  |
 | **PL-003** | Support C# | As a C# Developer, I want to generate C#-based ViewModels | Support C#-based UI Frameworks | ![MUST HAVE](https://github.com/vimotest/vimotest.github.io/raw/main/images//req_importance_musthave.png) | WPF in first place |
 | **PL-004** | Support Typescript | As a Web-Developer I want to generate Typescript-based ViewModels | Support Web-UIs | ![NICE TO HAVE](https://github.com/vimotest/vimotest.github.io/raw/main/images//req_importance_nicetohave.png) | More important in future |
+
 ### 7 Non-functional/Quality requirements
 
 | ID | Requirement | User Story | Reason | Importance | Notes |
 |----|-------------|------------|--------|------------|-------|
 | **NONF-001** | The ViMoTest DSL shall be easy to learn | As a test developer, I want to quickly learn the ViMoTest DSL | We want that the DSL is easy to use, so that not only MPS-experts can use it | ![SHOULD HAVE](https://github.com/vimotest/vimotest.github.io/raw/main/images//req_importance_shouldhave.png) | Through user studies we will evaluate this |
+
