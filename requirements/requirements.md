@@ -4,7 +4,7 @@ _This file is generated, do not modify it manually. Use the vimotest-requirement
 
 **GHERKIN**: Several requirements for the Gherkin-based style of the ViMoTest
 
-**UICOMP**:
+**UICOMP**: 
 
 **CONTEXT**: Features for the (data) context of ViewModel-based tests
 
