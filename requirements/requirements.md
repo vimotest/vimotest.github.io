@@ -57,6 +57,7 @@ _This file is generated, do not modify it manually. Use the vimotest-requirement
 | ID | Requirement | User Story | Reason | Importance | Notes |
 |----|-------------|------------|--------|------------|-------|
 | **DSL-001** | ViewModel shall have a built-in "Updating Flag" | As a view-logic developer I want to be able to temporarily disable data-binding updates | For larger or complex UI updates, sometimes data-binding has to be disabled temporarily | ![MUST HAVE](https://github.com/vimotest/vimotest.github.io/raw/main/images//req_importance_musthave.png) | i.e. to avoid that UIs fire events while larger updates of the ViewModel |
+| **DSL-002** | Provide Command abstraction for view inputs | As a view-logic developer, I want to add UI commands and bind them with UI frameworks directly | WPF provides UI commands, with an Execute() and a CanExecute() method. Command-bindings simplify the usage of such view inputs | ![SHOULD HAVE](https://github.com/vimotest/vimotest.github.io/raw/main/images//req_importance_shouldhave.png) | Examples: WPF Command Bindings |
 
 ### 6 Programming Languages
 
