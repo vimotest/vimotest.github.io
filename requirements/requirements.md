@@ -14,6 +14,8 @@ _This file is generated, do not modify it manually. Use the vimotest-requirement
 
 **PL**: Several programming languages shall be supported, to have a flexible approach.
 
+**GEN**: Requirements related to the generation and extensibility of the MPS-based DSL
+
 **NONF**: Describes non-functional/quality requirements for the ViMoTest solution
 
 
@@ -38,6 +40,7 @@ _This file is generated, do not modify it manually. Use the vimotest-requirement
 | **UICOMP-005** | Support Image Views | As a view developer, I need to support icons/images |  | ![MUST HAVE](https://github.com/vimotest/vimotest.github.io/raw/main/images//req_importance_musthave.png) | Properties: Visibility, Image |
 | **UICOMP-010** | Support List Views | As a view developer, I need to support list views |  | ![MUST HAVE](https://github.com/vimotest/vimotest.github.io/raw/main/images//req_importance_musthave.png) | Properties: Visibility, Enabled, List Items |
 | **UICOMP-011** | Support Table Views | As a view developer, I need to support table views |  | ![MUST HAVE](https://github.com/vimotest/vimotest.github.io/raw/main/images//req_importance_musthave.png) | Properties: Visibility, Enabled, Table Items |
+| **UICOMP-020** | Horizontal Layout | As a view developer, I want to have a visual layout container to visualize view components horizontally next to each other | better visualize intended layout | ![NICE TO HAVE](https://github.com/vimotest/vimotest.github.io/raw/main/images//req_importance_nicetohave.png) | e.g. for a button bar |
 
 ### 3 Context Features
 
@@ -68,7 +71,14 @@ _This file is generated, do not modify it manually. Use the vimotest-requirement
 | **PL-003** | Support C# | As a C# Developer, I want to generate C#-based ViewModels | Support C#-based UI Frameworks | ![MUST HAVE](https://github.com/vimotest/vimotest.github.io/raw/main/images//req_importance_musthave.png) | WPF in first place |
 | **PL-004** | Support Typescript | As a Web-Developer I want to generate Typescript-based ViewModels | Support Web-UIs | ![NICE TO HAVE](https://github.com/vimotest/vimotest.github.io/raw/main/images//req_importance_nicetohave.png) | More important in future |
 
-### 7 Non-functional/Quality requirements
+### 7 Generation
+
+| ID | Requirement | User Story | Reason | Importance | Notes |
+|----|-------------|------------|--------|------------|-------|
+| **GEN-001** | Replacable viewmodel field in test suites | As a language programmer, I want to build custom test suite DSL extensions with flexible viewmodel fields | The viewmodel field in a Test suite shall be replacable, e.g. for a DSL extension which defines a special Test-Suite baseclass | ![MUST HAVE](https://github.com/vimotest/vimotest.github.io/raw/main/images//req_importance_musthave.png) | Used for hamster simulator |
+| **GEN-002** | Controllable output names | As a test developer, I want to have optional control over generated class/field/package names | For interoperability to existing solutions, the ViMoTest approach can be build up-on existing classes | ![MUST HAVE](https://github.com/vimotest/vimotest.github.io/raw/main/images//req_importance_musthave.png) | Necessary for using existing hamster simulator |
+
+### 8 Non-functional/Quality requirements
 
 | ID | Requirement | User Story | Reason | Importance | Notes |
 |----|-------------|------------|--------|------------|-------|
